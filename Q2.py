@@ -1,10 +1,11 @@
-# Check My bank account balance
+Amount = int(input("Enter total amount:"))
 
-PresentBalance = int(input("Enter your present total balance:"))
-LimitedBalance = 2000
-print(PresentBalance == LimitedBalance)
-print(PresentBalance != LimitedBalance)
-print(PresentBalance >= LimitedBalance)
-print(PresentBalance <= LimitedBalance)
-print(PresentBalance > LimitedBalance)
-print(PresentBalance < LimitedBalance)
+if Amount >=5000:
+    print("Eligible for discount")
+
+elif (Amount>0) and (Amount<5000):
+    print("Not eligible")
+
+else:
+    print("Please do shopping")    
+
