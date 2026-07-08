@@ -1,21 +1,19 @@
-Amount = int(input("Enter total amount:"))
+"""
+user input = List [10-12 items]
+target element = input
 
-if Amount >=5000:
-    print("Eligible for discount")
+search, 1 by 1 element
+indexing number
 
-    print("Enter Mode of payment:")
-    mode = input("A- Cash, B- Card, C- UPI:")
-    if mode == "B":
-        print("Discount Appiled")
-    elif mode == "A" or "C":
-        print("Discount not applied")
-    else:
-        print("In-valid input")        
-     
+not found
 
-elif (Amount>0) and (Amount<5000):
-    print("Not eligible")
+"""
+My_items = list(input("Enter the items"))
+target_element = input("Enter the Tareget item:")
 
+search_item = input("Enter the item you want to search:")
+if search_item in My_items:
+    print("Found")
 else:
-    print("Please do shopping")    
-
+    print("Not Found!")  
+print(type(My_items))      
