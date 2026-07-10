@@ -35,3 +35,16 @@ y = [10,20,30,40,50]
 z = y.pop()
 print(y)
 print(z+100)
+
+#sort()
+marks = [45,66,70,88,32,53,96]
+marks.sort()
+print(marks)
+
+#reverse
+marks.reverse()
+print(marks)
+
+#count
+c = [1,2,2,2,3,3,3,4,5,6,7,7]
+print(c.count(80))
