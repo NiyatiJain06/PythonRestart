@@ -1,3 +1,8 @@
+"""
+Bank account managment without encapsulation
+balance not private
+"""
+
 class BankAccount:
     def __init__(self, name, balance):
         self.name = name
